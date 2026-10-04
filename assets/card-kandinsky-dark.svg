@@ -25,13 +25,13 @@
       <text x="14" y="37">Bulk art ingestion pipelines with automated sync</text>
 
       <circle cx="2" cy="59" r="2.5" fill="#8b5cf6" />
-      <text x="14" y="63">Stripe subscription lifecycles & webhook retries</text>
+      <text x="14" y="63">Stripe subscription lifecycles &amp; webhook retries</text>
     </g>
 
     <!-- Footer Status -->
     <g transform="translate(0, 154)">
       <line x1="0" y1="0" x2="344" y2="0" stroke="#1e293b" />
-      <text x="0" y="20" fill="#8b5cf6" font-size="11" font-weight="600" class="font-mono">✓ PRODUCTION VERIFIED</text>
+      <text x="0" y="20" fill="#8b5cf6" font-size="11" font-weight="600" class="font-mono">&#x2713; PRODUCTION VERIFIED</text>
     </g>
   </g>
 </svg>

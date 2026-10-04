@@ -28,7 +28,7 @@
 
   <!-- Status Pill -->
   <g transform="translate(48, 42)">
-    <rect width="210" height="26" rx="13" fill="rgba(16, 185, 129, 0.15)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+    <rect width="210" height="26" rx="13" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.4" stroke-width="1" />
     <circle cx="14" cy="13" r="4" fill="#059669" class="pulse-dot" />
     <text x="26" y="17" fill="#059669" font-size="11" font-weight="600" class="font-mono">SENIOR SYSTEMS ARCHITECT</text>
   </g>
@@ -43,11 +43,11 @@
   <!-- ================= ARCHITECTURAL PACKET FLOW PIPELINE ================= -->
   <g transform="translate(48, 220)">
     <!-- Baseline Bus Wire -->
-    <line x1="80" y1="52" x2="1100" y2="52" stroke="#e2e8f0" stroke-width="3" stroke-dasharray="6 6" />
+    <line x1="80" y1="52" x2="1100" y2="52" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="6 6" />
 
     <!-- Animated Flying Packet -->
     <g class="packet-flow" transform="translate(80, 52)">
-      <circle cx="0" cy="0" r="14" fill="rgba(37, 99, 235, 0.25)" />
+      <circle cx="0" cy="0" r="14" fill="#2563eb" fill-opacity="0.3" />
       <circle cx="0" cy="0" r="6" fill="#2563eb" />
     </g>
 
