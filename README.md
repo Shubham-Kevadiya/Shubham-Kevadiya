@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Shubham Kevadiya - Senior Backend Engineer" width="100%">
+  <img src="assets/hero-light.svg" alt="Shubham Kevadiya - Backend Engineer" width="100%">
 </picture>
 
 <picture>
@@ -10,7 +10,7 @@
 
 ### Currently
 
-Senior Backend Developer at **Sphere Techlabs** (Jun 2024 – Present), leading core backend architecture for **Kandinsky** (multi-tenant artwork SaaS & gallery commerce), and Founder at **CraftedWeb Studio**.
+Backend Developer at **Sphere Techlabs** (Jun 2024 – Present), building core backend architecture for **Kandinsky** (multi-tenant artwork SaaS & gallery commerce), and Founder at **CraftedWeb Studio**.
 
 ### Systems I've Built
 

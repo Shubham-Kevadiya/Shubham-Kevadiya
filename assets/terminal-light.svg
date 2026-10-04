@@ -30,11 +30,11 @@
 
     <!-- Field 1 -->
     <text x="0" y="32" fill="#64748b">role           :</text>
-    <text x="140" y="32" fill="#0f172a" font-weight="600">Senior Backend Engineer &amp; Systems Architect (3+ Years)</text>
+    <text x="140" y="32" fill="#0f172a" font-weight="600">Backend Engineer (3+ Years Experience)</text>
 
     <!-- Field 2 -->
     <text x="0" y="58" fill="#64748b">current        :</text>
-    <text x="140" y="58" fill="#0f172a">Sphere Techlabs (Lead Backend) • Founder @ CraftedWeb Studio</text>
+    <text x="140" y="58" fill="#0f172a">Sphere Techlabs (Backend Dev) • Founder @ CraftedWeb Studio</text>
 
     <!-- Field 3 -->
     <text x="0" y="84" fill="#64748b">platforms      :</text>
@@ -50,7 +50,7 @@
 
     <!-- Field 6 -->
     <text x="0" y="162" fill="#64748b">availability   :</text>
-    <text x="140" y="162" fill="#059669">Open for Senior Backend Roles (Remote Global) &amp; High-Scale Architecture</text>
+    <text x="140" y="162" fill="#059669">Open for Backend Roles (Remote Global) &amp; Distributed Systems</text>
 
     <!-- Divider & Prompt -->
     <line x1="0" y1="184" x2="1208" y2="184" stroke="#e2e8f0" stroke-dasharray="4 4" />

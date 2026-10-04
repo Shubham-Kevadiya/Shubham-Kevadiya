@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-label="Shubham Kevadiya - Senior Backend Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-label="Shubham Kevadiya - Backend Engineer">
   <defs>
     <style>
       .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
@@ -28,16 +28,16 @@
 
   <!-- Status Pill -->
   <g transform="translate(48, 42)">
-    <rect width="210" height="26" rx="13" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.4" stroke-width="1" />
+    <rect width="215" height="26" rx="13" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.4" stroke-width="1" />
     <circle cx="14" cy="13" r="4" fill="#059669" class="pulse-dot" />
-    <text x="26" y="17" fill="#059669" font-size="11" font-weight="600" class="font-mono">SENIOR SYSTEMS ARCHITECT</text>
+    <text x="26" y="17" fill="#059669" font-size="11" font-weight="600" class="font-mono">BACKEND ENGINEER • 3+ YRS</text>
   </g>
 
   <!-- Title & Subtitle -->
   <g transform="translate(48, 108)">
     <text x="0" y="0" fill="#0f172a" font-size="38" font-weight="800" letter-spacing="-0.5" class="font-sans">Shubham Kevadiya</text>
-    <text x="0" y="32" fill="#0284c7" font-size="18" font-weight="600" class="font-mono">Senior Backend Engineer • Distributed Systems &amp; Payments</text>
-    <text x="0" y="58" fill="#64748b" font-size="14" font-weight="400" class="font-sans">Engineering high-concurrency APIs, multi-tenant databases, resilient task queues, and idempotent fintech lifecycles.</text>
+    <text x="0" y="32" fill="#0284c7" font-size="18" font-weight="600" class="font-mono">Backend Engineer • Distributed Systems &amp; Payments</text>
+    <text x="0" y="58" fill="#64748b" font-size="14" font-weight="400" class="font-sans">Building scalable APIs, multi-tenant databases, resilient task queues, and idempotent fintech lifecycles.</text>
   </g>
 
   <!-- ================= ARCHITECTURAL PACKET FLOW PIPELINE ================= -->
