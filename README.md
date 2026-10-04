@@ -1,11 +1,11 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Shubham Kevadiya - Backend Engineer" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-v2-dark.svg">
+  <img src="assets/hero-v2-light.svg" alt="Shubham Kevadiya - Backend Engineer" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
-  <img src="assets/terminal-light.svg" alt="shubham@prod-cluster: sysctl -a backend.cluster" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-v2-dark.svg">
+  <img src="assets/terminal-v2-light.svg" alt="shubham@prod-cluster: sysctl -a backend.cluster" width="100%">
 </picture>
 
 ### Currently
@@ -15,20 +15,16 @@ Backend Developer at **Sphere Techlabs** (Jun 2024 – Present), building core b
 ### Systems I've Built
 
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/card-kandinsky-dark.svg">
-    <img src="assets/card-kandinsky-light.svg" alt="Kandinsky Multi-Tenant Platform" width="32%">
-  </picture>
-  <a href="https://github.com/Shubham-Kevadiya/task-queue-system">
+  <a href="https://kandinsky.app" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/card-taskqueue-dark.svg">
-      <img src="assets/card-taskqueue-light.svg" alt="Resilient Task Queue" width="32%">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/card-kandinsky-v2-dark.svg">
+      <img src="assets/card-kandinsky-v2-light.svg" alt="Kandinsky Multi-Tenant Platform" width="49%">
     </picture>
   </a>
-  <a href="https://crafted-web-studio.vercel.app/">
+  <a href="https://crafted-web-studio.vercel.app/" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/card-craftedweb-dark.svg">
-      <img src="assets/card-craftedweb-light.svg" alt="CraftedWeb Studio OS" width="32%">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/card-craftedweb-v2-dark.svg">
+      <img src="assets/card-craftedweb-v2-light.svg" alt="CraftedWeb Studio OS" width="49%">
     </picture>
   </a>
 </p>
@@ -36,8 +32,8 @@ Backend Developer at **Sphere Techlabs** (Jun 2024 – Present), building core b
 ### Core Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Engineering Stack" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-v2-dark.svg">
+  <img src="assets/stack-v2-light.svg" alt="Engineering Stack" width="100%">
 </picture>
 
 ### Connect
