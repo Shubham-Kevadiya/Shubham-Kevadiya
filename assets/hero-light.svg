@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-label="Shubham Kevadiya - Senior Backend Engineer">
+  <defs>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: "SF Mono", Monaco, "Cascadia Code", "Fira Code", monospace; }
+      @keyframes travelPacket {
+        0% { transform: translateX(0); opacity: 0; }
+        8% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { transform: translateX(850px); opacity: 0; }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.85); }
+      }
+      .packet-flow {
+        animation: travelPacket 3.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .pulse-dot {
+        animation: pulseGlow 2s infinite;
+        transform-origin: center;
+      }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1280" height="380" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <!-- Status Pill -->
+  <g transform="translate(48, 42)">
+    <rect width="210" height="26" rx="13" fill="rgba(16, 185, 129, 0.15)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+    <circle cx="14" cy="13" r="4" fill="#059669" class="pulse-dot" />
+    <text x="26" y="17" fill="#059669" font-size="11" font-weight="600" class="font-mono">SENIOR SYSTEMS ARCHITECT</text>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <g transform="translate(48, 108)">
+    <text x="0" y="0" fill="#0f172a" font-size="38" font-weight="800" letter-spacing="-0.5" class="font-sans">Shubham Kevadiya</text>
+    <text x="0" y="32" fill="#0284c7" font-size="18" font-weight="600" class="font-mono">Senior Backend Engineer • Distributed Systems &amp; Payments</text>
+    <text x="0" y="58" fill="#64748b" font-size="14" font-weight="400" class="font-sans">Engineering high-concurrency APIs, multi-tenant databases, resilient task queues, and idempotent fintech lifecycles.</text>
+  </g>
+
+  <!-- ================= ARCHITECTURAL PACKET FLOW PIPELINE ================= -->
+  <g transform="translate(48, 220)">
+    <!-- Baseline Bus Wire -->
+    <line x1="80" y1="52" x2="1100" y2="52" stroke="#e2e8f0" stroke-width="3" stroke-dasharray="6 6" />
+
+    <!-- Animated Flying Packet -->
+    <g class="packet-flow" transform="translate(80, 52)">
+      <circle cx="0" cy="0" r="14" fill="rgba(37, 99, 235, 0.25)" />
+      <circle cx="0" cy="0" r="6" fill="#2563eb" />
+    </g>
+
+    <!-- Node 1: Client Request -->
+    <g transform="translate(0, 16)">
+      <rect width="220" height="72" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+      <text x="18" y="30" fill="#0284c7" font-size="11" font-weight="600" class="font-mono">01 // INGRESS</text>
+      <text x="18" y="50" fill="#1e293b" font-size="13.5" font-weight="700" class="font-sans">Client API Request</text>
+      <text x="18" y="64" fill="#64748b" font-size="10.5" class="font-mono">REST / Webhooks / JWT</text>
+    </g>
+
+    <!-- Node 2: Multi-Tenant Data Store -->
+    <g transform="translate(300, 16)">
+      <rect width="240" height="72" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+      <text x="18" y="30" fill="#0284c7" font-size="11" font-weight="600" class="font-mono">02 // STORAGE &amp; TENANCY</text>
+      <text x="18" y="50" fill="#1e293b" font-size="13.5" font-weight="700" class="font-sans">PostgreSQL Isolation</text>
+      <text x="18" y="64" fill="#64748b" font-size="10.5" class="font-mono">Schema Partitioning &amp; Indexing</text>
+    </g>
+
+    <!-- Node 3: Distributed Worker Queue -->
+    <g transform="translate(620, 16)">
+      <rect width="240" height="72" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+      <text x="18" y="30" fill="#0284c7" font-size="11" font-weight="600" class="font-mono">03 // ASYNC WORKERS</text>
+      <text x="18" y="50" fill="#1e293b" font-size="13.5" font-weight="700" class="font-sans">BullMQ / Redis Cluster</text>
+      <text x="18" y="64" fill="#64748b" font-size="10.5" class="font-mono">Crash Recovery &amp; DLQ Replay</text>
+    </g>
+
+    <!-- Node 4: FinTech Idempotency -->
+    <g transform="translate(940, 16)">
+      <rect width="240" height="72" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+      <text x="18" y="30" fill="#059669" font-size="11" font-weight="600" class="font-mono">04 // RECONCILIATION</text>
+      <text x="18" y="50" fill="#1e293b" font-size="13.5" font-weight="700" class="font-sans">Stripe Idempotency ACK</text>
+      <text x="18" y="64" fill="#64748b" font-size="10.5" class="font-mono">Ledger State Verified (200)</text>
+    </g>
+  </g>
+</svg>

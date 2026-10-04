@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="shubham@prod-cluster: sysctl -a backend.cluster">
+  <defs>
+    <style>
+      .font-mono { font-family: "SF Mono", Monaco, "Cascadia Code", "Fira Code", monospace; }
+      @keyframes cursorBlink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .cursor { animation: cursorBlink 1s infinite; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1280" height="340" rx="14" fill="#050811" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Top Bar -->
+  <rect width="1280" height="38" rx="14" fill="#0f172a" />
+  <rect y="24" width="1280" height="14" fill="#0f172a" />
+  <line x1="0" y1="38" x2="1280" y2="38" stroke="#1e293b" stroke-width="1" />
+
+  <circle cx="24" cy="19" r="5" fill="#ef4444" />
+  <circle cx="40" cy="19" r="5" fill="#f59e0b" />
+  <circle cx="56" cy="19" r="5" fill="#10b981" />
+  <text x="80" y="23" fill="#64748b" font-size="12" class="font-mono">shubham@core-infra: ~ /telemetry/cluster.sh</text>
+
+  <!-- Terminal Content -->
+  <g transform="translate(36, 74)" class="font-mono" font-size="13">
+    <!-- Command Line -->
+    <text x="0" y="0" fill="#38bdf8">$ whoami --verbose &amp;&amp; sysctl -a backend.cluster</text>
+
+    <!-- Field 1 -->
+    <text x="0" y="32" fill="#64748b">role           :</text>
+    <text x="140" y="32" fill="#f8fafc" font-weight="600">Senior Backend Engineer &amp; Systems Architect (3+ Years)</text>
+
+    <!-- Field 2 -->
+    <text x="0" y="58" fill="#64748b">current        :</text>
+    <text x="140" y="58" fill="#f8fafc">Sphere Techlabs (Lead Backend) • Founder @ CraftedWeb Studio</text>
+
+    <!-- Field 3 -->
+    <text x="0" y="84" fill="#64748b">platforms      :</text>
+    <text x="140" y="84" fill="#38bdf8">Kandinsky (Multi-Tenant SaaS) • CraftedWeb (Agency OS) • BullMQ Queues</text>
+
+    <!-- Field 4 -->
+    <text x="0" y="110" fill="#64748b">core_stack     :</text>
+    <text x="140" y="110" fill="#fbbf24">Node.js • TypeScript • PostgreSQL • Redis • BullMQ • Stripe • Docker</text>
+
+    <!-- Field 5 -->
+    <text x="0" y="136" fill="#64748b">telemetry      :</text>
+    <text x="140" y="136" fill="#34d399">p99 &lt; 58ms • zero duplicate queue executions • 100% test pass rate</text>
+
+    <!-- Field 6 -->
+    <text x="0" y="162" fill="#64748b">availability   :</text>
+    <text x="140" y="162" fill="#34d399">Open for Senior Backend Roles (Remote Global) &amp; High-Scale Architecture</text>
+
+    <!-- Divider & Prompt -->
+    <line x1="0" y1="184" x2="1208" y2="184" stroke="#1e293b" stroke-dasharray="4 4" />
+    <text x="0" y="214" fill="#34d399">[OK] All backend services operating at peak efficiency</text>
+    <text x="0" y="238" fill="#38bdf8">shubham@core-infra:~$<tspan fill="#38bdf8" class="cursor"> █</tspan></text>
+  </g>
+</svg>
