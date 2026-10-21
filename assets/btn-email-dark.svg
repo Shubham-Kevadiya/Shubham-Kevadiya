@@ -1,10 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="110" height="40" viewBox="0 0 110 40" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="40" viewBox="0 0 244 40" role="img">
   <defs>
     <style>
       .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
     </style>
   </defs>
-  <rect width="110" height="40" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
-  <circle cx="18" cy="20" r="5" fill="#ef4444" />
-  <text x="32" y="25" fill="#f8fafc" font-size="13" font-weight="600" class="font-sans">Email</text>
+  <rect width="232" height="40" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+    <g transform="translate(85,13)" fill="none" stroke="#ef4444" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0.5" y="1.5" width="15" height="11" rx="2"/>
+      <path d="M1.5 3.5L8 9l6.5-5.5"/>
+    </g>
+  <text x="109" y="25" fill="#f8fafc" font-size="13" font-weight="600" class="font-sans">Email</text>
 </svg>

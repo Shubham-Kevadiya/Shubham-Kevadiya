@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="122" height="40" viewBox="0 0 122 40" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="244" height="40" viewBox="0 0 244 40" role="img">
   <defs>
     <style>
       .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
     </style>
   </defs>
-  <rect width="110" height="40" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
-  <circle cx="18" cy="20" r="5" fill="#38bdf8" />
-  <text x="32" y="25" fill="#0f172a" font-size="13" font-weight="600" class="font-sans">Studio</text>
+  <rect width="232" height="40" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+    <path transform="translate(83,12)" fill="#38bdf8" d="M8 0l1.9 6.1L16 8l-6.1 1.9L8 16l-1.9-6.1L0 8l6.1-1.9z"/>
+  <text x="107" y="25" fill="#0f172a" font-size="13" font-weight="600" class="font-sans">Studio</text>
 </svg>
