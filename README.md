@@ -49,35 +49,4 @@ Backend Developer at **Sphere Techlabs** (Jun 2024 – Present), building core b
 
 ### Connect
 
-<p>
-  <a href="https://github.com/Shubham-Kevadiya" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg">
-      <img src="assets/btn-github-light.svg" alt="GitHub" height="40">
-    </picture>
-  </a>
-  <a href="https://portfolio-shubham-850f.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg">
-      <img src="assets/btn-portfolio-light.svg" alt="Portfolio" height="40">
-    </picture>
-  </a>
-  <a href="https://crafted-web-studio.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-studio-dark.svg">
-      <img src="assets/btn-studio-light.svg" alt="CraftedWeb Studio" height="40">
-    </picture>
-  </a>
-  <a href="https://www.linkedin.com/in/shubham-kevadiya/" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg">
-      <img src="assets/btn-linkedin-light.svg" alt="LinkedIn" height="40">
-    </picture>
-  </a>
-  <a href="mailto:shubhamekevadiya681@gmail.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg">
-      <img src="assets/btn-email-light.svg" alt="Email" height="40">
-    </picture>
-  </a>
-</p>
+<p><a href="https://github.com/Shubham-Kevadiya" target="_blank" rel="noopener noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg"><img src="assets/btn-github-light.svg" alt="GitHub" valign="top" height="40"></picture></a><a href="https://portfolio-shubham-850f.vercel.app/" target="_blank" rel="noopener noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg"><img src="assets/btn-portfolio-light.svg" alt="Portfolio" valign="top" height="40"></picture></a><a href="https://crafted-web-studio.vercel.app/" target="_blank" rel="noopener noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-studio-dark.svg"><img src="assets/btn-studio-light.svg" alt="CraftedWeb Studio" valign="top" height="40"></picture></a><a href="https://www.linkedin.com/in/shubham-kevadiya/" target="_blank" rel="noopener noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img src="assets/btn-linkedin-light.svg" alt="LinkedIn" valign="top" height="40"></picture></a><a href="mailto:shubhamekevadiya681@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img src="assets/btn-email-light.svg" alt="Email" valign="top" height="40"></picture></a></p>
