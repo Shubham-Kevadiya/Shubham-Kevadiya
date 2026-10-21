@@ -1,11 +1,11 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-v2-dark.svg">
-  <img src="assets/hero-v2-light.svg" alt="Shubham Kevadiya - Backend Engineer" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-v3-dark.svg">
+  <img src="assets/hero-v3-light.svg" alt="Shubham Kevadiya - Backend Engineer" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-v2-dark.svg">
-  <img src="assets/terminal-v2-light.svg" alt="shubham@prod-cluster: sysctl -a backend.cluster" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-v3-dark.svg">
+  <img src="assets/terminal-v3-light.svg" alt="Terminal output: backend engineer profile, stack, and live telemetry" width="100%">
 </picture>
 
 ### Currently
@@ -15,16 +15,27 @@ Backend Developer at **Sphere Techlabs** (Jun 2024 – Present), building core b
 ### Systems I've Built
 
 <p>
-  <a href="https://kandinsky.app" target="_blank">
+  <a href="https://kandinsky.app" target="_blank" rel="noopener noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/card-kandinsky-v2-dark.svg">
-      <img src="assets/card-kandinsky-v2-light.svg" alt="Kandinsky Multi-Tenant Platform" width="49%">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/card-kandinsky-v3-dark.svg">
+      <img src="assets/card-kandinsky-v3-light.svg" alt="Kandinsky Multi-Tenant Platform" width="49%">
     </picture>
   </a>
-  <a href="https://crafted-web-studio.vercel.app/" target="_blank">
+  <a href="https://crafted-web-studio.vercel.app/" target="_blank" rel="noopener noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/card-craftedweb-v2-dark.svg">
-      <img src="assets/card-craftedweb-v2-light.svg" alt="CraftedWeb Studio OS" width="49%">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/card-craftedweb-v3-dark.svg">
+      <img src="assets/card-craftedweb-v3-light.svg" alt="CraftedWeb Studio OS" width="49%">
+    </picture>
+  </a>
+</p>
+
+### Open Source
+
+<p>
+  <a href="https://github.com/Shubham-Kevadiya/3d-qr-generator" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/card-voxelqr-dark.svg">
+      <img src="assets/card-voxelqr-light.svg" alt="Voxel QR - 3D QR code generator, open source" width="49%">
     </picture>
   </a>
 </p>
@@ -32,27 +43,34 @@ Backend Developer at **Sphere Techlabs** (Jun 2024 – Present), building core b
 ### Core Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-v2-dark.svg">
-  <img src="assets/stack-v2-light.svg" alt="Engineering Stack" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-v3-dark.svg">
+  <img src="assets/stack-v3-light.svg" alt="Engineering Stack" width="100%">
 </picture>
 
 ### Connect
 
-<a href="https://portfolio-shubham-850f.vercel.app/">
+<a href="https://github.com/Shubham-Kevadiya" target="_blank" rel="noopener noreferrer">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg">
+    <img src="assets/btn-github-light.svg" alt="GitHub" height="42">
+  </picture>
+</a>
+&nbsp;
+<a href="https://portfolio-shubham-850f.vercel.app/" target="_blank" rel="noopener noreferrer">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg">
     <img src="assets/btn-portfolio-light.svg" alt="Portfolio" height="42">
   </picture>
 </a>
 &nbsp;
-<a href="https://crafted-web-studio.vercel.app/">
+<a href="https://crafted-web-studio.vercel.app/" target="_blank" rel="noopener noreferrer">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/btn-studio-dark.svg">
     <img src="assets/btn-studio-light.svg" alt="CraftedWeb Studio" height="42">
   </picture>
 </a>
 &nbsp;
-<a href="https://www.linkedin.com/in/shubham-kevadiya/">
+<a href="https://www.linkedin.com/in/shubham-kevadiya/" target="_blank" rel="noopener noreferrer">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg">
     <img src="assets/btn-linkedin-light.svg" alt="LinkedIn" height="42">

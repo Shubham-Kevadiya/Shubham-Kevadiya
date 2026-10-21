@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="shubham@core-infra: terminal output showing backend engineer profile, stack, and telemetry">
+  <defs>
+    <style>
+      .font-mono { font-family: "SF Mono", Monaco, "Cascadia Code", "Fira Code", monospace; }
+
+      /* 14s scripted boot sequence: command types, output lands line by line, then resets */
+      @keyframes cmdType {
+        0%, 2.5% { width: 0px; animation-timing-function: steps(46, end); }
+        18.5%, 100% { width: 372px; }
+      }
+      @keyframes typeCursor {
+        0%, 2.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(46, end); }
+        18.5% { transform: translateX(362px); opacity: 1; }
+        19.5%, 100% { transform: translateX(362px); opacity: 0; }
+      }
+      @keyframes cursorBlink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.85); }
+      }
+      @keyframes l1 { 0%, 21.2% { opacity: 0; } 21.9%, 93.5% { opacity: 1; } 95.5%, 100% { opacity: 0; } }
+      @keyframes l2 { 0%, 24.8% { opacity: 0; } 25.5%, 93.5% { opacity: 1; } 95.5%, 100% { opacity: 0; } }
+      @keyframes l3 { 0%, 28.4% { opacity: 0; } 29.1%, 93.5% { opacity: 1; } 95.5%, 100% { opacity: 0; } }
+      @keyframes l4 { 0%, 31.9% { opacity: 0; } 32.6%, 93.5% { opacity: 1; } 95.5%, 100% { opacity: 0; } }
+      @keyframes l5 { 0%, 35.4% { opacity: 0; } 36.1%, 93.5% { opacity: 1; } 95.5%, 100% { opacity: 0; } }
+      @keyframes l6 { 0%, 38.9% { opacity: 0; } 39.6%, 93.5% { opacity: 1; } 95.5%, 100% { opacity: 0; } }
+      @keyframes l7 { 0%, 43.2% { opacity: 0; } 43.9%, 93.5% { opacity: 1; } 95.5%, 100% { opacity: 0; } }
+      @keyframes l8 { 0%, 46.8% { opacity: 0; } 47.5%, 93.5% { opacity: 1; } 95.5%, 100% { opacity: 0; } }
+      @keyframes l9 { 0%, 51.8% { opacity: 0; } 52.5%, 93.5% { opacity: 1; } 95.5%, 100% { opacity: 0; } }
+
+      .cursor { animation: cursorBlink 1s infinite; }
+      .pulse-ok { animation: pulseDot 2s infinite; transform-origin: center; }
+      .typeclip { animation: cmdType 14s linear infinite; }
+      .typecursor { animation: typeCursor 14s linear infinite; }
+      .l1 { animation: l1 14s linear infinite; opacity: 0; }
+      .l2 { animation: l2 14s linear infinite; opacity: 0; }
+      .l3 { animation: l3 14s linear infinite; opacity: 0; }
+      .l4 { animation: l4 14s linear infinite; opacity: 0; }
+      .l5 { animation: l5 14s linear infinite; opacity: 0; }
+      .l6 { animation: l6 14s linear infinite; opacity: 0; }
+      .l7 { animation: l7 14s linear infinite; opacity: 0; }
+      .l8 { animation: l8 14s linear infinite; opacity: 0; }
+      .l9 { animation: l9 14s linear infinite; opacity: 0; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .typeclip, .typecursor, .cursor, .pulse-ok,
+        .l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9 { animation: none; opacity: 1; }
+        .typecursor { display: none; }
+      }
+    </style>
+    <clipPath id="typeClip" clipPathUnits="userSpaceOnUse">
+      <rect class="typeclip" x="-4" y="-18" width="372" height="26" />
+    </clipPath>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1280" height="340" rx="14" fill="#050811" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Top Window Bar -->
+  <rect width="1280" height="38" rx="14" fill="#0f172a" />
+  <rect y="24" width="1280" height="14" fill="#0f172a" />
+  <line x1="0" y1="38" x2="1280" y2="38" stroke="#1e293b" stroke-width="1" />
+
+  <circle cx="24" cy="19" r="5" fill="#ef4444" />
+  <circle cx="40" cy="19" r="5" fill="#f59e0b" />
+  <circle cx="56" cy="19" r="5" fill="#10b981" />
+  <text x="80" y="23" fill="#64748b" font-size="12" class="font-mono">shubham@core-infra: ~ /telemetry/cluster.sh</text>
+
+  <!-- Terminal Content -->
+  <g transform="translate(36, 74)" class="font-mono" font-size="13">
+    <!-- Command Line (typed) -->
+    <g clip-path="url(#typeClip)">
+      <text x="0" y="0" fill="#38bdf8" font-weight="600">$ whoami --verbose &amp;&amp; sysctl -a backend.cluster</text>
+    </g>
+    <rect class="typecursor" x="2" y="-11" width="7" height="15" fill="#38bdf8" />
+
+    <!-- Field 1 -->
+    <g class="l1">
+      <text x="0" y="32" fill="#64748b">role           :</text>
+      <text x="140" y="32" fill="#f8fafc" font-weight="600">Backend Engineer (3+ Years Experience)</text>
+    </g>
+
+    <!-- Field 2 -->
+    <g class="l2">
+      <text x="0" y="58" fill="#64748b">current        :</text>
+      <text x="140" y="58" fill="#f8fafc">Sphere Techlabs (Backend Dev) • Founder @ CraftedWeb Studio</text>
+    </g>
+
+    <!-- Field 3 -->
+    <g class="l3">
+      <text x="0" y="84" fill="#64748b">platforms      :</text>
+      <text x="140" y="84" fill="#38bdf8">Kandinsky (Multi-Tenant SaaS) • CraftedWeb (Agency OS) • BullMQ Queues</text>
+    </g>
+
+    <!-- Field 4 -->
+    <g class="l4">
+      <text x="0" y="110" fill="#64748b">core_stack     :</text>
+      <text x="140" y="110" fill="#fbbf24">Node.js • TypeScript • PostgreSQL • Redis • BullMQ • Stripe • Docker</text>
+    </g>
+
+    <!-- Field 5 -->
+    <g class="l5">
+      <text x="0" y="136" fill="#64748b">telemetry      :</text>
+      <text x="140" y="136" fill="#34d399">p99 &lt; 58ms • zero duplicate queue executions • 100% test pass rate</text>
+    </g>
+
+    <!-- Field 6 -->
+    <g class="l6">
+      <text x="0" y="162" fill="#64748b">availability   :</text>
+      <text x="140" y="162" fill="#34d399">Open for Backend Roles (Remote Global) &amp; Distributed Systems</text>
+    </g>
+
+    <!-- Divider -->
+    <line class="l7" x1="0" y1="184" x2="1208" y2="184" stroke="#1e293b" stroke-dasharray="4 4" />
+
+    <!-- Health Check -->
+    <g class="l8">
+      <circle cx="6" cy="210" r="3.5" fill="#34d399" class="pulse-ok" />
+      <text x="18" y="214" fill="#34d399">[OK] All backend services operating at peak efficiency</text>
+    </g>
+
+    <!-- Prompt -->
+    <g class="l9">
+      <text x="0" y="238" fill="#38bdf8">shubham@core-infra:~$<tspan fill="#38bdf8" class="cursor"> █</tspan></text>
+    </g>
+  </g>
+</svg>

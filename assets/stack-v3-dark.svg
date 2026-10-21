@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="240" viewBox="0 0 1280 240" role="img" aria-label="Core Engineering Stack">
+  <defs>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: "SF Mono", Monaco, "Cascadia Code", "Fira Code", monospace; }
+      .chip-bg { fill: #0d1322; stroke: #1e293b; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1280" height="240" rx="14" fill="#090d16" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- ================= 1. LANGUAGES & RUNTIMES ================= -->
+  <g transform="translate(42, 28)">
+    <text x="0" y="10" fill="#38bdf8" font-size="11" font-weight="700" letter-spacing="1" class="font-mono">LANGUAGES &amp; RUNTIMES</text>
+
+    <!-- Chips -->
+    <g transform="translate(0, 24)">
+      <!-- TypeScript -->
+      <g transform="translate(0, 0)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#38bdf8" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">TypeScript</text>
+        <text x="258" y="19" text-anchor="end" fill="#38bdf8" font-size="10.5" font-weight="600" class="font-mono">Primary</text>
+      </g>
+      <!-- Node.js -->
+      <g transform="translate(0, 36)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#38bdf8" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Node.js (ESNext)</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">v20+ LTS</text>
+      </g>
+      <!-- Python -->
+      <g transform="translate(0, 72)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#38bdf8" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Python</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Scripts</text>
+      </g>
+      <!-- SQL -->
+      <g transform="translate(0, 108)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#38bdf8" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">SQL</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Relational</text>
+      </g>
+      <!-- Zsh / Bash -->
+      <g transform="translate(0, 144)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#38bdf8" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Zsh / Bash</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Shell</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= 2. DATABASES & CACHING ================= -->
+  <g transform="translate(346, 28)">
+    <text x="0" y="10" fill="#10b981" font-size="11" font-weight="700" letter-spacing="1" class="font-mono">DATABASES &amp; CACHING</text>
+
+    <!-- Chips -->
+    <g transform="translate(0, 24)">
+      <!-- PostgreSQL -->
+      <g transform="translate(0, 0)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#10b981" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">PostgreSQL</text>
+        <text x="258" y="19" text-anchor="end" fill="#10b981" font-size="10.5" font-weight="600" class="font-mono">Tenancy</text>
+      </g>
+      <!-- Redis -->
+      <g transform="translate(0, 36)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#10b981" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Redis</text>
+        <text x="258" y="19" text-anchor="end" fill="#10b981" font-size="10.5" font-weight="600" class="font-mono">In-Memory</text>
+      </g>
+      <!-- MongoDB -->
+      <g transform="translate(0, 72)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#10b981" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">MongoDB</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Document</text>
+      </g>
+      <!-- MySQL -->
+      <g transform="translate(0, 108)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#10b981" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">MySQL</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">ACID</text>
+      </g>
+      <!-- Sequelize / Prisma -->
+      <g transform="translate(0, 144)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#10b981" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Sequelize / Prisma</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">ORMs</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= 3. QUEUES & ARCHITECTURE ================= -->
+  <g transform="translate(650, 28)">
+    <text x="0" y="10" fill="#f59e0b" font-size="11" font-weight="700" letter-spacing="1" class="font-mono">QUEUES &amp; ARCHITECTURE</text>
+
+    <!-- Chips -->
+    <g transform="translate(0, 24)">
+      <!-- BullMQ -->
+      <g transform="translate(0, 0)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#f59e0b" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">BullMQ</text>
+        <text x="258" y="19" text-anchor="end" fill="#fbbf24" font-size="10.5" font-weight="600" class="font-mono">Cluster</text>
+      </g>
+      <!-- Redis Streams -->
+      <g transform="translate(0, 36)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#f59e0b" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Redis Streams</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Pub/Sub</text>
+      </g>
+      <!-- RabbitMQ -->
+      <g transform="translate(0, 72)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#f59e0b" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">RabbitMQ</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Broker</text>
+      </g>
+      <!-- Event-Driven -->
+      <g transform="translate(0, 108)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#f59e0b" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Event-Driven</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Pattern</text>
+      </g>
+      <!-- REST & Webhooks -->
+      <g transform="translate(0, 144)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#f59e0b" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">REST &amp; Webhooks</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Protocols</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= 4. PAYMENTS & CLOUD ================= -->
+  <g transform="translate(954, 28)">
+    <text x="0" y="10" fill="#8b5cf6" font-size="11" font-weight="700" letter-spacing="1" class="font-mono">PAYMENTS &amp; CLOUD</text>
+
+    <!-- Chips -->
+    <g transform="translate(0, 24)">
+      <!-- Stripe Billing -->
+      <g transform="translate(0, 0)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#8b5cf6" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Stripe Billing</text>
+        <text x="258" y="19" text-anchor="end" fill="#c084fc" font-size="10.5" font-weight="600" class="font-mono">Idempotent</text>
+      </g>
+      <!-- Razorpay -->
+      <g transform="translate(0, 36)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#8b5cf6" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Razorpay</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Gateway</text>
+      </g>
+      <!-- Docker -->
+      <g transform="translate(0, 72)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#8b5cf6" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Docker</text>
+        <text x="258" y="19" text-anchor="end" fill="#38bdf8" font-size="10.5" font-weight="600" class="font-mono">Containers</text>
+      </g>
+      <!-- AWS S3 -->
+      <g transform="translate(0, 108)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#8b5cf6" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">AWS S3 / CDN</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Storage</text>
+      </g>
+      <!-- Vitest & Playwright -->
+      <g transform="translate(0, 144)">
+        <rect width="272" height="30" rx="6" class="chip-bg" />
+        <circle cx="14" cy="15" r="3" fill="#8b5cf6" />
+        <text x="26" y="19" fill="#f8fafc" font-size="12" font-weight="500" class="font-mono">Vitest &amp; Playwright</text>
+        <text x="258" y="19" text-anchor="end" fill="#64748b" font-size="10" class="font-mono">Testing</text>
+      </g>
+    </g>
+  </g>
+</svg>

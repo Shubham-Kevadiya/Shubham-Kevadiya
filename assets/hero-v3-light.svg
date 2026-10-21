@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Shubham Kevadiya - Backend Engineer">
+  <defs>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .font-mono { font-family: "SF Mono", Monaco, "Cascadia Code", "Fira Code", monospace; }
+
+      /* Packet Travel Animations */
+      @keyframes travelPacket1 {
+        0% { transform: translateX(0); opacity: 0; }
+        6% { opacity: 1; }
+        92% { opacity: 1; }
+        100% { transform: translateX(960px); opacity: 0; }
+      }
+      @keyframes travelPacket2 {
+        0% { transform: translateX(0); opacity: 0; }
+        6% { opacity: 1; }
+        92% { opacity: 1; }
+        100% { transform: translateX(960px); opacity: 0; }
+      }
+
+      /* Reactive Node Illumination Sequence */
+      @keyframes glowNodeLight1 {
+        0%, 12% { stroke: #0284c7; filter: drop-shadow(0 0 8px rgba(2, 132, 199, 0.5)); }
+        24%, 100% { stroke: #cbd5e1; filter: none; }
+      }
+      @keyframes glowNodeLight2 {
+        0%, 25% { stroke: #cbd5e1; filter: none; }
+        36%, 48% { stroke: #0284c7; filter: drop-shadow(0 0 8px rgba(2, 132, 199, 0.5)); }
+        60%, 100% { stroke: #cbd5e1; filter: none; }
+      }
+      @keyframes glowNodeLight3 {
+        0%, 50% { stroke: #cbd5e1; filter: none; }
+        61%, 73% { stroke: #d97706; filter: drop-shadow(0 0 8px rgba(217, 119, 6, 0.5)); }
+        85%, 100% { stroke: #cbd5e1; filter: none; }
+      }
+      @keyframes glowNodeLight4 {
+        0%, 75% { stroke: #cbd5e1; filter: none; }
+        86%, 98% { stroke: #059669; filter: drop-shadow(0 0 10px rgba(5, 150, 105, 0.5)); }
+        100% { stroke: #cbd5e1; filter: none; }
+      }
+
+      /* Pulsing Indicators */
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(0.85); }
+      }
+
+      .pulse-dot {
+        animation: pulseGlow 2s infinite;
+        transform-origin: center;
+      }
+      .node-ingress {
+        animation: glowNodeLight1 3.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .node-storage {
+        animation: glowNodeLight2 3.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .node-queue {
+        animation: glowNodeLight3 3.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .node-reconcile {
+        animation: glowNodeLight4 3.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .packet-primary {
+        animation: travelPacket1 3.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .packet-secondary {
+        animation: travelPacket2 3.6s cubic-bezier(0.4, 0, 0.2, 1) 1.8s infinite;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .node-ingress, .node-storage, .node-queue, .node-reconcile,
+        .packet-primary, .packet-secondary, .pulse-dot { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1280" height="400" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <!-- Status Pill -->
+  <g transform="translate(48, 38)">
+    <rect width="215" height="26" rx="13" fill="#10b981" fill-opacity="0.12" stroke="#059669" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="14" cy="13" r="4" fill="#059669" class="pulse-dot" />
+    <text x="26" y="17" fill="#059669" font-size="11" font-weight="600" class="font-mono">BACKEND ENGINEER • 3+ YRS</text>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <g transform="translate(48, 102)">
+    <text x="0" y="0" fill="#0f172a" font-size="36" font-weight="800" letter-spacing="-0.5" class="font-sans">Shubham Kevadiya</text>
+    <text x="0" y="32" fill="#0284c7" font-size="17" font-weight="600" class="font-mono">Backend Engineer • Distributed Systems &amp; Payments</text>
+    <text x="0" y="58" fill="#475569" font-size="13.5" font-weight="400" class="font-sans">Building scalable APIs, multi-tenant databases, resilient task queues, and idempotent fintech lifecycles.</text>
+  </g>
+
+  <!-- ================= REACTIVE ARCHITECTURAL PIPELINE ================= -->
+  <g transform="translate(48, 220)">
+    <!-- Baseline Bus Wire -->
+    <line x1="80" y1="62" x2="1100" y2="62" stroke="#e2e8f0" stroke-width="3" stroke-dasharray="6 6" />
+    <line x1="80" y1="62" x2="1100" y2="62" stroke="#0284c7" stroke-width="1.5" stroke-opacity="0.25" />
+
+    <!-- Animated Staggered Packets -->
+    <g class="packet-primary" transform="translate(80, 62)">
+      <circle cx="0" cy="0" r="16" fill="#0284c7" fill-opacity="0.2" />
+      <circle cx="0" cy="0" r="7" fill="#0284c7" />
+      <circle cx="0" cy="0" r="3" fill="#ffffff" />
+    </g>
+    <g class="packet-secondary" transform="translate(80, 62)">
+      <circle cx="0" cy="0" r="14" fill="#9333ea" fill-opacity="0.2" />
+      <circle cx="0" cy="0" r="6" fill="#9333ea" />
+      <circle cx="0" cy="0" r="2.5" fill="#ffffff" />
+    </g>
+
+    <!-- Node 1: Client Ingress Gateway -->
+    <g transform="translate(0, 10)">
+      <rect width="250" height="104" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" class="node-ingress" />
+      <circle cx="20" cy="26" r="4.5" fill="#0284c7" />
+      <text x="32" y="30" fill="#0284c7" font-size="11" font-weight="600" class="font-mono">01 // INGRESS</text>
+      <text x="20" y="56" fill="#0f172a" font-size="14" font-weight="700" class="font-sans">Client API Request</text>
+      <text x="20" y="74" fill="#64748b" font-size="11" class="font-mono">REST / Webhooks / JWT</text>
+      <!-- Metric badge -->
+      <rect x="20" y="82" width="76" height="15" rx="3.5" fill="#0284c7" fill-opacity="0.1" />
+      <text x="26" y="93" fill="#0284c7" font-size="9.5" font-weight="600" class="font-mono">p99 &lt; 58ms</text>
+    </g>
+
+    <!-- Node 2: Multi-Tenant Data Store -->
+    <g transform="translate(310, 10)">
+      <rect width="255" height="104" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" class="node-storage" />
+      <circle cx="20" cy="26" r="4.5" fill="#0284c7" />
+      <text x="32" y="30" fill="#0284c7" font-size="11" font-weight="600" class="font-mono">02 // STORAGE &amp; TENANCY</text>
+      <text x="20" y="56" fill="#0f172a" font-size="14" font-weight="700" class="font-sans">PostgreSQL Isolation</text>
+      <text x="20" y="74" fill="#64748b" font-size="11" class="font-mono">Schema Partitioning &amp; Indexing</text>
+      <!-- Metric badge -->
+      <rect x="20" y="82" width="94" height="15" rx="3.5" fill="#0284c7" fill-opacity="0.1" />
+      <text x="26" y="93" fill="#0284c7" font-size="9.5" font-weight="600" class="font-mono">Isolation ✓</text>
+    </g>
+
+    <!-- Node 3: Distributed Worker Queue -->
+    <g transform="translate(625, 10)">
+      <rect width="255" height="104" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" class="node-queue" />
+      <circle cx="20" cy="26" r="4.5" fill="#d97706" />
+      <text x="32" y="30" fill="#d97706" font-size="11" font-weight="600" class="font-mono">03 // ASYNC WORKERS</text>
+      <text x="20" y="56" fill="#0f172a" font-size="14" font-weight="700" class="font-sans">BullMQ / Redis Cluster</text>
+      <text x="20" y="74" fill="#64748b" font-size="11" class="font-mono">Crash Recovery &amp; DLQ Replay</text>
+      <!-- Metric badge -->
+      <rect x="20" y="82" width="90" height="15" rx="3.5" fill="#d97706" fill-opacity="0.1" />
+      <text x="26" y="93" fill="#b45309" font-size="9.5" font-weight="600" class="font-mono">0 Duplicates</text>
+    </g>
+
+    <!-- Node 4: FinTech Idempotency -->
+    <g transform="translate(940, 10)">
+      <rect width="240" height="104" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" class="node-reconcile" />
+      <circle cx="20" cy="26" r="4.5" fill="#059669" />
+      <text x="32" y="30" fill="#059669" font-size="11" font-weight="600" class="font-mono">04 // RECONCILIATION</text>
+      <text x="20" y="56" fill="#0f172a" font-size="14" font-weight="700" class="font-sans">Stripe Idempotency ACK</text>
+      <text x="20" y="74" fill="#64748b" font-size="11" class="font-mono">Ledger State Verified (200)</text>
+      <!-- Metric badge -->
+      <rect x="20" y="82" width="98" height="15" rx="3.5" fill="#059669" fill-opacity="0.1" />
+      <text x="26" y="93" fill="#059669" font-size="9.5" font-weight="600" class="font-mono">ACK 200 OK ✓</text>
+    </g>
+  </g>
+</svg>
